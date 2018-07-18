@@ -7,8 +7,8 @@ button:focus,
 a:hover,
 a:focus {
   outline: none;
-  color: inherit;
-  text-decoration: none;
+  color: #52D11B;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .nav > li > a {
@@ -17,8 +17,8 @@ a:focus {
 }
 
 .nav > li > a:focus {
-  text-decoration: none;
-  background: transparent;
+  text-decoration: underline;
+  color: #1BB3D1;
 }
 
 .jumbotron .mdl-button {
